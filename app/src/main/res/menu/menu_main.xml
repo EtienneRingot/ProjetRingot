@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+    <group
+        android:id="@+id/groupe_menu_search"
+        android:checkableBehavior="single">
+        <item android:title="Populaire"
+              android:id="@+id/item_menu_popular"
+              android:checked="true"/>
+        <item android:title="Mieu noté"
+            android:id="@+id/item_menu_toprated"/>
+        <item android:title="En diffusion"
+            android:id="@+id/item_menu_nowplaying"/>
+        <item android:title="Favoris"
+            android:id="@+id/item_menu_fav"/>
+    </group>
+
+
+    <group
+        android:id="@+id/group_menu_language"
+        android:checkableBehavior="single">
+        <item android:title="Englais"
+            android:id="@+id/item_menu_english"
+            android:checked="true"/>
+        <item android:title="Francais"
+            android:id="@+id/item_menu_french"/>
+    </group>
+
+
+</menu>

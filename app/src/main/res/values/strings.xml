@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">movies</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_single_movie">SingleMovieActivity</string>
+    <string name="title_little_view">Petit</string>
+    <string name="title_big_view">Grand</string>
+    <string name="title_view">Normal</string>
+    <string name="action_settings">Settings</string>
+</resources>
